@@ -24,7 +24,9 @@
 
 ### → MongoDB: https://learn.mongodb.com
 
-> **_NOTE:_** If you found this help. Like and share. Thanks Happy Learning!
+---
+
+**_NOTE:_** If you found this help. Like and share. Thanks Happy Learning!
 
 ---
 
