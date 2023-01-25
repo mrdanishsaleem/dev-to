@@ -50,7 +50,7 @@ There are plenty of different game engines used by developers these days. [Unity
 
 [Official Python forum](https://discuss.python.org) is one of the global Python community’s main hubs, where members with diverse experiences, personalities, and skills come together to discuss their work and careers.
 
-# 12. Real Python
+## 12. Real Python
 
 The [Real Python](https://realpython.com/) is one of the most valuable resources for any budding Python developer — housing thousands of professional video lessons and tutorials on every aspect of the popular programming language.
 
