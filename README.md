@@ -1,42 +1,48 @@
-## [We Work Remotely](https://weworkremotely.com/)
+# Free Resources to Help You Ace Your Interviews
 
-## [Virtual Vocations](https://www.virtualvocations.com/)
+## 1. [https://github.com/careercup/CtCI-6th-Edition](https://github.com/careercup/CtCI-6th-Edition)
 
-## [FlexJobs](https://www.flexjobs.com/)
+## 2. [https://en.wikipedia.org/wiki/Fizz_buzz](https://en.wikipedia.org/wiki/Fizz_buzz)
 
-## [JustRemote](https://justremote.co/)
+## 3. [https://en.wikipedia.org/wiki/Fibonacci_number](https://en.wikipedia.org/wiki/Fibonacci_number)
 
-## [Remote](https://remote.co/)
+## 4. [https://www.hackerrank.com/](https://www.hackerrank.com/)
 
-## [Remote.co](https://remote.co/)
+## 5. [https://www.hackerearth.com/](https://www.hackerearth.com/)
 
-## [Simply Hired](https://www.simplyhired.com/)
+## 6. [https://leetcode.com/](https://leetcode.com/)
 
-## [Developers For Hire](https://www.developersforhire.com/)
+## 7. [https://www.freecodecamp.org/news/coding-interview-preparation/](https://www.freecodecamp.org/news/coding-interview-preparation/)
 
-## [iOS Dev Jobs](https://iosdevjobs.com/)
+## 8. [https://www.freecodecamp.org/news/linked-lists-in-technical-interviews/](https://www.freecodecamp.org/news/linked-lists-in-technical-interviews/)
 
-## [Nodesk](https://nodesk.co/)
+## 9. [https://www.freecodecamp.org/news/how-to-implement-binary-tree-algorithms-in-technical-interviews/](https://www.freecodecamp.org/news/how-to-implement-binary-tree-algorithms-in-technical-interviews/)
 
-## [ZipRecruiter](https://www.ziprecruiter.co.uk/)
+## 10. [https://www.freecodecamp.org/news/coding-interview-graph-traversal-crash-course-the-only-one-youll-ever-need/](https://www.freecodecamp.org/news/coding-interview-graph-traversal-crash-course-the-only-one-youll-ever-need/)
 
-## [SanerJobs](https://sanerjobs.com/)
+## 11. [https://www.freecodecamp.org/news/senior-software-engineer-interview-questions-how-i-got-a-job-as-an-sde-3-and-how-you-can-prepare-for-the-rounds/](https://www.freecodecamp.org/news/senior-software-engineer-interview-questions-how-i-got-a-job-as-an-sde-3-and-how-you-can-prepare-for-the-rounds/)
 
-## [Remote Ok](https://remoteok.com/)
+## 12. [https://www.freecodecamp.org/news/how-to-stand-out-during-your-react-coding-interview/](https://www.freecodecamp.org/news/how-to-stand-out-during-your-react-coding-interview/)
 
-## [Remote Index](https://remoteindex.co/)
+## 13. [https://www.freecodecamp.org/news/coding-interview-tree-traversal-crash-course-the-only-one-youll-ever-need/](https://www.freecodecamp.org/news/coding-interview-tree-traversal-crash-course-the-only-one-youll-ever-need/)
 
-## [Devremote](https://devremote.io/)
+## 14. [https://www.freecodecamp.org/news/graph-algorithms-for-technical-interviews/](https://www.freecodecamp.org/news/graph-algorithms-for-technical-interviews/)
 
-## [Web3Career](https://web3.career/)
+## 15. [https://www.freecodecamp.org/news/solve-coding-interview-backtracking-problem/](https://www.freecodecamp.org/news/solve-coding-interview-backtracking-problem/)
 
-## [4DayWeek](https://4dayweek.io/)
+## 16. [https://www.freecodecamp.org/news/javascript-interview-prep-cheatsheet/](https://www.freecodecamp.org/news/javascript-interview-prep-cheatsheet/)
 
-## [Remote Frontend Jobs](https://www.remotefrontendjobs.com/)
+## 17. [https://www.freecodecamp.org/news/coding-interview-backtracking-problems-crash-course/](https://www.freecodecamp.org/news/coding-interview-backtracking-problems-crash-course/)
 
-## [RubyOnRemote](https://rubyonremote.com/)
+## 18. [https://www.freecodecamp.org/news/system-design-interview-practice-tutorial/](https://www.freecodecamp.org/news/system-design-interview-practice-tutorial/)
 
-## [JS](https://jobsinjs.com/)
+## 19. [https://www.freecodecamp.org/news/how-to-acing-your-coding-interview-advice-from-senior-software-engineer/](https://www.freecodecamp.org/news/how-to-acing-your-coding-interview-advice-from-senior-software-engineer/)
+
+## 20. [https://www.freecodecamp.org/news/learn-to-speak-the-security-lingo/](https://www.freecodecamp.org/news/learn-to-speak-the-security-lingo/)
+
+## 21. [https://seths.blog/2010/01/quieting-the-lizard-brain/](https://seths.blog/2010/01/quieting-the-lizard-brain/)
+
+## 22. [https://www.careereducation.columbia.edu/resources/prepare-software-or-technical-interview](https://www.careereducation.columbia.edu/resources/prepare-software-or-technical-interview)
 
 ---
 
