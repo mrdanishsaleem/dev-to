@@ -1,34 +1,18 @@
-# Website to Learn Web Technologies for Free
+Software Quality Assurance (SQA) was my first foray into the world of software engineering. It was a great way to learn the fundamentals of software development, while also gaining valuable insight into the software development process.
 
-Are you looking for ways to learn web technologies? This blog post is about websites which can help you learn web technologies.
+Although I enjoyed my time as an SQA engineer, I was always looking for new challenges and opportunities. That's when I decided to take the plunge and transition from SQA to software engineering.
 
-1. HTML: https://html.com/
+The transition was difficult at times, but I was determined to succeed. I started out by taking online courses in various programming languages and frameworks. I also read books and articles on the latest software development topics.
 
-2. CSS Tricks: https://css-tricks.com/
+I also took advantage of any opportunities I had to work on software engineering projects. This gave me a chance to put my newly acquired knowledge into practice and gain valuable practical experience.
 
-3. JavaScript: https://javascript.info/
+Along the way, I received invaluable help from mentors, colleagues, and friends. With their guidance, I was able to refine my skills, gain experience, and become a better software engineer.
 
-4. Bootstrap: https://getbootstrap.com/docs/
-
-5. React: https://react-tutorial.app/
-
-6. PHP: https://www.php.net/
-
-7. Algorithms: https://algorithm-visualizer.org/
-
-8. APIs: https://rapidapi.com/learn
-
-9. Git & GItHub: https://learngitbranching.js.org/
-
-10. MySQL: https://dev.mysql.com/doc/
-
-11. NodeJs: https://nodejs.dev/en/learn/
-
-12. MongoDB: https://learn.mongodb.com/
+Today, I'm very proud of the progress I've made in my transition from SQA to software engineering. I'm excited to continue learning, growing, and pushing myself to become a better software engineer.
 
 ---
 
-**_NOTE:_** If you found this help. Like and share. Thanks, Happy Learning!
+**_NOTE: _** If you found this help. Like and share. Thanks, Happy Learning!
 
 ---
 
