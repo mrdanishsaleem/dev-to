@@ -1,3 +1,5 @@
+# My Journey from Software Quality Assurance to Software Engineering
+
 Software Quality Assurance (SQA) was my first foray into the world of software engineering. It was a great way to learn the fundamentals of software development, while also gaining valuable insight into the software development process.
 
 Although I enjoyed my time as an SQA engineer, I was always looking for new challenges and opportunities. That's when I decided to take the plunge and transition from SQA to software engineering.
