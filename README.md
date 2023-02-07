@@ -14,7 +14,7 @@ Today, I'm very proud of the progress I've made in my transition from SQA to sof
 
 ---
 
-**_NOTE: _** If you found this help. Like and share. Thanks, Happy Learning!
+**_NOTE:_** If you found this help. Like and share. Thanks, Happy Learning!
 
 ---
 
