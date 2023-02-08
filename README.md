@@ -1,16 +1,48 @@
-# My Journey from Software Quality Assurance to Software Engineering
+# Here Are Websites Where You Can Find Your Client
 
-Software Quality Assurance (SQA) was my first foray into the world of software engineering. It was a great way to learn the fundamentals of software development, while also gaining valuable insight into the software development process.
+1. Total: https://www.toptal.com/
 
-Although I enjoyed my time as an SQA engineer, I was always looking for new challenges and opportunities. That's when I decided to take the plunge and transition from SQA to software engineering.
+2. Upwork: https://www.upwork.com/
 
-The transition was difficult at times, but I was determined to succeed. I started out by taking online courses in various programming languages and frameworks. I also read books and articles on the latest software development topics.
+3. Design hill: https://www.designhill.com/
 
-I also took advantage of any opportunities I had to work on software engineering projects. This gave me a chance to put my newly acquired knowledge into practice and gain valuable practical experience.
+4. PeoplerPerHour: https://www.peopleperhour.com/
 
-Along the way, I received invaluable help from mentors, colleagues, and friends. With their guidance, I was able to refine my skills, gain experience, and become a better software engineer.
+5. Dice: https://www.dice.com/
 
-Today, I'm very proud of the progress I've made in my transition from SQA to software engineering. I'm excited to continue learning, growing, and pushing myself to become a better software engineer.
+6. Remoteok: https://remoteok.com/
+
+7. Freelancer: https://www.freelancer.com/
+
+8. Authentic Jobs: https://authenticjobs.com/
+
+9. X-Team: https://x-team.com/
+
+10. Simply Hired: https://www.simplyhired.com/
+
+11. UpStack: https://upstackhq.com/
+
+12. Borderless Mind: https://www.borderlessmind.com/get-in-touch/
+
+13. LinkedIn: https://www.linkedin.com/
+
+14. Top Coder: https://www.topcoder.com/
+
+15. Workana: https://www.workana.com/
+
+16. Flex Jobs: https://www.flexjobs.com/
+
+17. Nexxt: https://www.nexxt.com/
+
+18. Fiverr: https://www.fiverr.com/
+
+19. Hub Staff: https://talent.hubstaff.com/hire
+
+20. Hired: https://hired.com/
+
+21. Guru: https://www.guru.com/
+
+22. Gun: https://gun.io/
 
 ---
 
