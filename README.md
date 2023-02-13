@@ -1,33 +1,26 @@
-## 1. Bootstrap vs Tailwind CSS
+## 1. Use Frameworks
 
-| **Bootstrap**                                                                                                                                                                                                      | **Tailwind CSS**                                                                                                                 |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------- |
-| 1. Bootstrap is a component-based framework. It is based on object-oriented CSS.                                                                                                                                   | 1. Tailwind is known as Utility-First CSS is high customization.                                                                 |
-| 2. Bootstrap comes with a set of pre-made components that are used to design a typical website quickly.                                                                                                            | 2. You can style each component of your website as Tailwind UI demands from it.                                                  |
-| 3. Bootstrap CSS is an easy-to-learn framework that maintains consistency for different browsers and devices. If you know CSS, then it is pretty easy to learn customization in Bootstrap for website development. | 3. This framework has no ready-made components for designing. You can build your own custom components with the utility classes. |
+Frameworks are crucial for a Frontend Developer! Frameworks are the package of inbuilt templates, which we can use to build our own projects on top of it. Although learning a framework seems hard, the productivity is high.
 
-## 2. Performance: Bootstrap vs Tailwind CSS
+## 2. Create a library of your code Snippets
 
-| **Bootstrap**                                                                                                                                  | **Tailwind CSS**                                                                                               |
-| ---------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
-| 1. Bootstrap requires four main files to be incorporated in the project for development which require heavy space to be occupied about 300 kb. | 1. In Tailwind CSS, we need style sheets to get our task done. This CSS file occupies about 30kb of the space. |
-| 2. In Bootstrap, we have a lot of overhead code, and this causes the build time to be around 160 seconds.                                      | 2. As Tailwind has built-in utility libraries, this shortens the build time up to 8 to 10 seconds.             |
+This habit will increase your productivity at its peak! Any API or Code your write for a project will definitely be used in the other one. So, maintaining the library for your own code helps you to recycle the function and save a lot of time in debugging!
 
-## 3. Community: Bootstrap vs Tailwind CSS
+## 3. Write a blog of your own project
 
-Bootstrap has a larger community compared to tailwind CSS. That’s why there is still a lot of room for Tailwind to have a strong community of developers and tools.
+This can be your Buy 1, Get 1 Offer!
 
-## 4. Which one to Pick and Why?
+After any project or task, you made, you can write up a small blog of how you did it! This is a huge productive task as it helps you to understand the project more and also build a platform network for yourself from [Blogs](https://www.buymeacoffee.com/mrdanishsaleem/), [YouTube](https://www.youtube.com/), and so on...
 
-So, we can conclude that if you are working as a new backend developer, you should opt for Bootstrap first. Whereas if you are working as front-end developer, then Tailwind CSS is the better option for the custom designs.
+## 4. Use Tools & Extensions
 
-But in the end, it is your choice either you want to go with Bootstrap for responsive design, or you want high customization in style your web with advantages of Tailwind CSS. It depends on project requirements and personal preferences.
+Tools and Extensions will help you to save time tremendously! There are plenty of browsers and IDE Extensions available to make the tasks simple and clean. And also, many tools to recreate or perform the function you wanted!
 
-## 5. Official Website Links
+## 5. Learn & Master Git
 
-**[Bootstrap Official Website](https://getbootstrap.com/)**
+[Git](https://git-scm.com/) & [GitHub](https://github.com/) is one of the most powerful and life-saving tools for web developers! Upon mastering Git will help you to perform the wide dimensions in it and make your productivity level to the highest! Git can perform a task in seconds that takes unimaginable time without!
 
-**[Tailwind CSS Official Website](https://tailwindcss.com/)**
+---
 
 ---
 
