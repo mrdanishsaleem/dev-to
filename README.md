@@ -1,7 +1,5 @@
 # MongoDB vs MySQL
 
----
-
 | **MongoDB**                                                                                                  | **MySQL**                                                                          |
 | ------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------- |
 | 1. MongoDB employs a document-oriented database management system.                                           | 1. It uses Relational Database Management System (RDBMS).                          |
