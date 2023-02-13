@@ -1,11 +1,14 @@
-# MongoDB vs MySQL
+| **Good Developer**                                              | **Bad Developer**                                                    |
+| --------------------------------------------------------------- | -------------------------------------------------------------------- |
+| 1. Focuses on solving problems using right technologies         | 1. Focuses on the following the latest technologies.                 |
+| 2. Eager to learn new things                                    | 2. Attached to their favorite technology                             |
+| 3. Write the minimum amount of code possible to solve a problem | 3. Believes their worth is related to the amount of code they write. |
+| 4. Disciplined about making progress.                           | 4. Works whenever “he is in the mood”                                |
+| 5. Understand the value of code reviews and pair programming    | 5. Get offended when someone critiques their work.                   |
+| 6. Married to the users’ problems                               | 6. Married to his own solutions                                      |
+| 7. Open to criticism                                            | 7. Run from critique.                                                |
 
-| **MongoDB**                                                                                                  | **MySQL**                                                                          |
-| ------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------- |
-| 1. MongoDB employs a document-oriented database management system.                                           | 1. It uses Relational Database Management System (RDBMS).                          |
-| 2. Data is stored in BSON (Binary JSON) format in collections, with each document                            | 2. Data is stored in tables with defined columns and relationships between tables. |
-| 3. It features a query language similar to JSON.                                                             | 3. It uses Structured Query Language (SQL) for database access.                    |
-| 4. It is suitable for unstructured and semi-structured data, enabling flexible and scalable data management. | 4. It is suited for structured and organized data.                                 |
+---
 
 **_NOTE:_** If you found this help. Like and share. Thanks, Happy Learning!
 
