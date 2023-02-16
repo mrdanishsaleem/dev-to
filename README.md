@@ -109,7 +109,7 @@ Cons:
 
 ### Let's connect 💜
 
-You can follow me on [Twitter](https://twitter.com/MrDanishSaleem),[Instagram](https://www.instagram.com/mrdanishsaleem/), [LinkedIn](https://www.linkedin.com/in/mrdanishsaleem/) & [GitHub](https://github.com/mrdanishsaleem/)
+You can follow me on [Twitter](https://twitter.com/MrDanishSaleem), [Instagram](https://www.instagram.com/mrdanishsaleem/), [LinkedIn](https://www.linkedin.com/in/mrdanishsaleem/) & [GitHub](https://github.com/mrdanishsaleem/)
 
 ### Support Me
 
