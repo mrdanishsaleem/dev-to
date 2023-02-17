@@ -1,107 +1,37 @@
-As a developer or designer, it's essential to stay up-to-date with the latest trends and techniques in your field. To do this, regularly seek design inspiration from various sources. In this post, I'll share some of my favourite websites for finding design inspiration for landing pages.
+# Best Tools For Building Your First MERN Application
 
-These websites are perfect for both novice and experienced designers, providing the inspiration needed to create stunning landing page designs.
+In this article, I will share with you my list of the top tools to use when building your first web application using the MERN stack
 
-Let's explore some of the best websites for website and landing page design inspiration, along with their pros and cons.
+## What is the MERN stack
 
-## [1. Dribbble](https://dribbble.com/?ref=dev.to/mrdanishsaleem)
+The MERN stack refers to MongoDB, Express.js, React.js, and Node.js - four tools used to build full-fledged web applications.
 
-![Dribbble](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/oz94wwsj3t21p83l54p7.png)
+The main benefit of this stack is that it uses only one programming language, JavaScript, throughout the entire development process. This simplifies development, as developers don't need to switch between multiple languages.
 
-A community of designers share their work, offering a broad selection of design inspiration for landing pages.
+### Tool You Need for Your App
 
-Pros:
+Having the right tools for all your apps can make a huge difference in their performance. With these tools, you can ensure that your apps are running smoothly and efficiently. These tools are:
 
-- Large and active community
-- Wide range of designs
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/) which are tools to use to install the different packages of your web application
+- Node.js
+- Some code editor like [Visual Studio Code](https://code.visualstudio.com/)
 
-Cons:
+### Tools to Use for Frontend Stack
 
-- Some designs may be too complex or hard to replicate.
+When building a frontend stack, there are a number of tools to choose from. These tools can help you create a smooth, efficient user experience.
 
-## [2. Behance](https://www.behance.net/?ref=dev.to/mrdanishsaleem)
+- If you are building a single page application, you can use Create-react-app to generate your frontend code. If you are building a static website, you can try [Gatsby](https://www.gatsbyjs.com/)
+- For state management, you can use [Redux](https://redux.js.org/)
+- To perform unit testing and end to end testing on your code, you can use [Jest](https://jestjs.io/) and [cypress](https://www.cypress.io/)
+- [Vercel](https://vercel.com/), [Netlify](https://www.netlify.com/) or some similar hosting platform to deploy your frontend code
 
-![Behance](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/y9rymktuqxl2c3gu56oo.png)
+### Tools to Use for Backend Stack
 
-Features a wide variety of design portfolios, with many examples of high-quality landing page designs.
-
-Pros:
-
-- A vast selection of designs, easy to navigate and search.
-
-Cons:
-
-- May not be as specialized in landing page designs as other sources of inspiration.
-
-## [3. Awwwards](https://www.awwwards.com/?ref=dev.to/mrdanishsaleem)
-
-![Awwwards](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/127l74gbdcjsdiifpwby.png)
-
-Showcase the best designs from around the world, including many creative and effective landing page designs.
-
-Pros:
-
-- High-quality designs, with a focus on user experience.
-
-Cons:
-
-- May not be as diverse as other sources of inspiration.
-
-## [4. One Page Love](https://onepagelove.com/?ref=dev.to/mrdanishsaleem)
-
-![One Page Love](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/awcvfy4lfv3weihcbmcq.png)
-
-A dedicated website for showcasing inspiring one-page designs, including many landing page examples, has its pros and cons.
-
-Pros:
-
-- Include a focus on one-page designs and ease of browsing and searching.
-
-Cons:
-
-- Include a potential lack of diversity compared to other sources of inspiration.
-
-## [5. Landingfolio](https://www.landingfolio.com/?ref=dev.to/mrdanishsaleem)
-
-![Landingfolio](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/tr9ufb1u1i8l4xvv3o4m.png)
-
-A collection of the best landing page designs from around the web offers a wealth of inspiration for designers.
-
-Pros:
-
-- A vast selection of high-quality designs, easy to browse and search.
-
-Cons:
-
-- May have less variety than other sources of inspiration.
-
-## [6. UX Planet](https://uxplanet.org/?ref=dev.to/mrdanishsaleem)
-
-![UX Planet](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/lvnjyjh55em58zh5u1wb.png)
-
-A website focused on **user experience design**, featuring many examples of well-designed landing pages.
-
-Pros:
-
-- A focus on user experience
-- A wide range of design styles
-
-Cons:
-
-- May not have as many designs as other sources of inspiration.
-
-## [7. Site Inspire](https://www.siteinspire.com/?ref=dev.to/mrdanishsaleem)
-
-![Site Inspire](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/xdpncoth6427bx9hnber.png)
-A curated collection of web design inspiration, including many examples of effective landing pages, has pros and cons.
-
-Pros:
-
-- Include a large collection of high-quality designs that are easy to browse and search.
-
-Cons:
-
-- Include a lack of diversity compared to other sources of inspiration.
+- [ExpressJS](https://expressjs.com/) to create your backend endpoints
+- [Jest](https://jestjs.io/) to test your backend code
+- An instance of [MongoDB](https://www.mongodb.com/) on your server
+- [Mongoose](https://mongoosejs.com/) to connect to your MongoDB instance from your backend code
+- Some hosting service like [Firebase](https://firebase.google.com/) or [Heroku](https://www.heroku.com/) to deploy your backend code
 
 ---
 
