@@ -1,37 +1,14 @@
-# Best Tools For Building Your First MERN Application
+# How to choose a Coding Language
 
-In this article, I will share with you my list of the top tools to use when building your first web application using the MERN stack
+Choosing a coding language doesn't have to be difficult - there are so many great options out there! Depending on what you're trying to do, there's likely a language that will fit your needs. To start, take into account your experience level and the type of application you're building, as well as the platforms you're targeting.
 
-## What is the MERN stack
+If you're just starting out, Python or JavaScript are great beginner languages with lots of features and libraries to help you get going. To create web applications, you'll need HTML (for structuring content), CSS (for styling) and JavaScript (for interactivity). And for mobile applications, you'll want Java (for Android), Swift (for iOS) or JavaScript (for both).
 
-The MERN stack refers to MongoDB, Express.js, React.js, and Node.js - four tools used to build full-fledged web applications.
+Python is a popular, versatile and easy to learn language. It's used for data science, web development, software engineering and artificial intelligence, and is supported by robust libraries and frameworks. Plus, there's an open-source community of developers who are always willing to offer helpful support and resources.
 
-The main benefit of this stack is that it uses only one programming language, JavaScript, throughout the entire development process. This simplifies development, as developers don't need to switch between multiple languages.
+When picking a language, make sure to consider the libraries and frameworks available - they can make your job a lot easier and save you a lot of time.
 
-### Tool You Need for Your App
-
-Having the right tools for all your apps can make a huge difference in their performance. With these tools, you can ensure that your apps are running smoothly and efficiently. These tools are:
-
-- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/) which are tools to use to install the different packages of your web application
-- Node.js
-- Some code editor like [Visual Studio Code](https://code.visualstudio.com/)
-
-### Tools to Use for Frontend Stack
-
-When building a frontend stack, there are a number of tools to choose from. These tools can help you create a smooth, efficient user experience.
-
-- If you are building a single page application, you can use Create-react-app to generate your frontend code. If you are building a static website, you can try [Gatsby](https://www.gatsbyjs.com/)
-- For state management, you can use [Redux](https://redux.js.org/)
-- To perform unit testing and end to end testing on your code, you can use [Jest](https://jestjs.io/) and [cypress](https://www.cypress.io/)
-- [Vercel](https://vercel.com/), [Netlify](https://www.netlify.com/) or some similar hosting platform to deploy your frontend code
-
-### Tools to Use for Backend Stack
-
-- [ExpressJS](https://expressjs.com/) to create your backend endpoints
-- [Jest](https://jestjs.io/) to test your backend code
-- An instance of [MongoDB](https://www.mongodb.com/) on your server
-- [Mongoose](https://mongoosejs.com/) to connect to your MongoDB instance from your backend code
-- Some hosting service like [Firebase](https://firebase.google.com/) or [Heroku](https://www.heroku.com/) to deploy your backend code
+At the end of the day, the best language for you is the one that best fits your application and experience level. Explore your options and evaluate carefully before making your decision!
 
 ---
 
