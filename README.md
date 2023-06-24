@@ -1,58 +1,52 @@
-# Unlocking the Door to DevRel Success: A Comprehensive Guide on How to Break Into Developer Relations (DevRel)
+# Software Engineer Interview Preparation Topics
 
-Welcome to the exciting world of Developer Relations (DevRel)! If you're passionate about technology, love engaging with developers, and have a knack for effective communication, breaking into DevRel can open up a world of opportunities. In this comprehensive guide, we'll walk you through practical steps to pave your way into the DevRel field, combining catchy insights with SEO-friendly tips to maximize your success.
+You are going to be asked about Object Oriented Programming, Databases, Data structures and Programming skills.
 
-## Understanding the DevRel Landscape
+## Object Oriented Programming
 
-- What is DevRel and why is it in high demand?
-- The evolving role of Developer Relations Professional?
-- Indentifying the skills and qualities that make a successful DevRel practitioner.
+- Pillars of OOP
 
-## Building a Strong Foundation
+## Database
 
-- Acquiring technical experties: Essential programming languages, platforms, and tools to master.
-- Exploring the open source work: Contributing and collaborating to enhance your credibilty.
-- Leveraging online resources: Top websites, blogs, and platforms for self-learning and skill development.
+- Joins in MySQL
+- Group by in MySQL
+- ACID Properties
+- Dimond Problem
+- Query Optimization
+- MySQL Engine Types
 
-## Crafting Your Personal Brand
+## Data Structures
 
-- Identifying your niche and target developer community
-- Establishing an online presence: Building a captivating personal website and portfolio.
-- Creating valueable content: Blogging, podcasting, and social media stratgies to showcase your expertise.
+- Trees
+- Arrays
+- Linked List
+- Stack and Queues
+- Heaps
+- Difference between DFS and BFS
 
-## Engaging with Developer Communities
+## **Programming Skills**
 
-- Attending conferences, meetups, and hackthons: Networking opportunities and insights from industry experts.
-- Contributing to forums and online communities: Sharing knowledge, answering questions, and building your reputation.
-- Collaborating with tech influencers: Leveraging existing networks to amplify your reach and influence.
+- Language: JavaScript
+- Variables
+- Data Types
+- Functions
+- TDD
+- CORS
+- Hoisting
+- Memorization
+- Closure
+- Tree Shaking
+- What is DOM in JavaScript?
+- How to find loop in Linked List?
 
-## Gaining Real-World Experience
+## Other GitHub Resources
 
-- Seeking internships, part-time roles, or freelance opportunities in DevRel.
-- Joining developer-focused organizations or startups to gain hands-on experience.
-- Volunteering for speaking engagements or workshops to demonstrate your expertise.
-
-## Nailing the Interview Process
-
-- Tailoring your resume and cover letter for DevRel positions.
-- Highlighting relevant skills and experiences during interviews.
-- Showcasing your communication and presentation abilities through practical exercises or demos.
-
-## Continued Learning and Growth
-
-- Staying up to date with industry trends, tools, and technologies.
-- Pursuing professional development opportunities, certifications, and specialized training.
-- Seeking mentorship and guidance from experienced DevRel professionals.
-
-## Conclusion
-
-Breaking into DevRel requires dedication, continuous learning, and a passion for technology and community engagement. By following the practical steps outlined in this guide, you'll be equipped with the knowledge and strategies needed to unlock the door to DevRel success. Embrace the challenges, nurture your skills, and watch your career soar as you make a lasting impact in the world of developer relations.
-
-Remember, breaking into DevRel is a journey, and with persistence and the right mindset, you can transform your passion into a fulfilling and rewarding career. Get ready to embark on an exciting adventure in DevRel and unlock limitless opportunities!
-
----
-
-Share your thoughts and experiences on breaking into DevRel in the comments below. Let's build a vibrant community of aspiring and established DevRel professionals!
+- <https://github.com/jwasham/coding-interview-university>
+- <https://techinterviewhandbook.org/>
+- <https://github.com/donnemartin/system-design-primer>
+- <https://github.com/trekhleb/javascript-algorithms>
+- <https://github.com/vasanthk/how-web-works>
+- <https://github.com/veeral-patel/how-to-secure-anything>
 
 ---
 
