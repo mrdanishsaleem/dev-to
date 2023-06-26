@@ -1,52 +1,6 @@
-# Software Engineer Interview Preparation Topics
+# Software Engineer Roadmap
 
-You are going to be asked about Object Oriented Programming, Databases, Data structures and Programming skills.
-
-## Object Oriented Programming
-
-- Pillars of OOP
-
-## Database
-
-- Joins in MySQL
-- Group by in MySQL
-- ACID Properties
-- Dimond Problem
-- Query Optimization
-- MySQL Engine Types
-
-## Data Structures
-
-- Trees
-- Arrays
-- Linked List
-- Stack and Queues
-- Heaps
-- Difference between DFS and BFS
-
-## **Programming Skills**
-
-- Language: JavaScript
-- Variables
-- Data Types
-- Functions
-- TDD
-- CORS
-- Hoisting
-- Memorization
-- Closure
-- Tree Shaking
-- What is DOM in JavaScript?
-- How to find loop in Linked List?
-
-## Other GitHub Resources
-
-- <https://github.com/jwasham/coding-interview-university>
-- <https://techinterviewhandbook.org/>
-- <https://github.com/donnemartin/system-design-primer>
-- <https://github.com/trekhleb/javascript-algorithms>
-- <https://github.com/vasanthk/how-web-works>
-- <https://github.com/veeral-patel/how-to-secure-anything>
+Software engineering is the process of designing, creating, testing, and maintaining software using software engineering methodologies, computer science principles, and programming languages. To become a software engineer, you need to learn various skills and technologies that will enable you to create software products and systems that meet user requirements and solve real-world problems.
 
 ---
 
