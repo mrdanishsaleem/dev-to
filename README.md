@@ -26,7 +26,7 @@ Morning light gently stirred the slumbering soul, offering a fresh start. The ch
 
 **_NOTE:_** If you found this helpful. Like and share. Thanks, Happy Learning!
 
-### Let's connect 💜
+## Let's connect 💜
 
 You can follow me on [Twitter](https://twitter.com/MrDanishSaleem), [Instagram](https://www.instagram.com/mrdanishsaleem/), [LinkedIn](https://www.linkedin.com/in/mrdanishsaleem/) & [GitHub](https://github.com/mrdanishsaleem/)
 
