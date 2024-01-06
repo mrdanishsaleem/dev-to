@@ -1,35 +1,140 @@
-# A Day in the Life of a Web Developer: A Comedy of Errors
+# Unclutter Your GitHub Stars: Creating an npm Package for Effortless Repo Unstarring
 
-Once upon a time, in a bustling city where dreams were woven in the digital world, a web developer stirred awake on a bright morning, brimming with enthusiasm to tackle the day. Birds chirped outside, welcoming the sunrise, as the developer eagerly checked their email, only to discover a new project waiting—a pet grooming business in need of a website.
+GitHub stars are an excellent way to bookmark repositories, but as time passes, they accumulate into an overwhelming pile. As a developer, I found myself drowning in a sea of starred repos, making it challenging to find the ones I actually use. Frustrated by the lack of efficient solutions, I embarked on a mission to simplify this chaos.
 
-Excitement danced within the developer's mind. "Easy task," they mused, confident in their coding prowess and affection for animals. With a determined spirit, they fired up their laptop and dove into the labyrinth of coding.
+## The Problem
 
-However, the digital landscape had changed. The familiar framework they relied upon had evolved, leaving behind abandoned features. An hour of troubleshooting led to a cascade of errors, frustratingly complicating the project. Frustrated curses punctuated the air, prompting a shift to a new framework—a highly recommended one.
+The issue with GitHub stars isn't just about quantity; it's about organization. Clicking through each repository to unstar them manually isn't just tedious; it's impractical. The existing scripts and solutions out there fell short—they lacked usability or simply didn't address my needs.
 
-But this new framework was a maze of unfamiliar syntax and concepts, akin to deciphering a foreign language. Starting from square one, the developer grappled with tutorials and examples, bewildered by the complexity. Undeterred, they persevered, crafting a basic template that finally breathed with life.
+## The Idea
 
-The elation was short-lived. Adding features birthed new challenges. Plugins and libraries meant to simplify tasks morphed into catalysts of chaos, spawning conflicts and errors. Despite diligent searching, solutions remained elusive, leaving the developer exasperated.
+Enter my npm package—an attempt to streamline the un-starring process. I wanted something that could effortlessly unstar repositories without pagination limitations, making the clutter disappear with a single command.
 
-A lunch break offered solace, nourishing both body and spirit. Revitalized, albeit cautiously optimistic, they returned to the digital canvas. Step by painstaking step, bugs were squashed, and functionalities resurrected. Hope flickered—a testament to patience and persistence.
+## The Development Process
 
-Styles and animations breathed aesthetic life into the website, elevating its allure. With awe, the developer beheld their creation, now an artistic masterpiece. Confidence surged. The finish line seemed within grasp.
+### Conceptualization
 
-The final hurdle—deployment and publication—loomed ominously. Platforms and services, touted as saviors, betrayed expectations, shrouding the project in errors and obfuscation. Frustration simmered, and desperation gnawed, threatening to shatter hopes and deadlines.
+I envisioned a tool that leverages the GitHub API to list and unstar repositories efficiently. The Octokit library became instrumental, providing a robust interface to interact with GitHub's API.
 
-In a moment of despair, tears welled up, signaling defeat. The laptop lid closed, and the weight of the day pressed heavily. "Worst day ever," the developer muttered, resenting their chosen path.
+### Coding Journey
 
-Yet, as the day's chaos receded, sleep embraced the weary mind. In the realm of dreams, a new career beckoned—a place where the digital realm bloomed with promise, untainted by errors or deadlines.
+The development phase involved creating an interactive CLI tool using Node.js and the Octokit library. Handling user input and integrating API calls to unstar repositories were the pivotal aspects of the code.
 
-Morning light gently stirred the slumbering soul, offering a fresh start. The challenges of yesterday remained, but so did resilience. With renewed determination, the web developer rose, ready to conquer the digital frontier once more—undaunted, unyielding, and destined for a tale yet unwritten.
+```javascript
+#!/usr/bin/env node
 
----
+/*
+ * Author: Danish Saleem
+ * GitHub: mrdanishsaleem
+ * name: GitHub Unstar Pro
+ * version: 2.0.2
+ */
 
-**_NOTE:_** If you found this helpful. Like and share. Thanks, Happy Learning!
+"use-strict";
 
-## Let's connect 💜
+const inquirer = require("inquirer");
+const { Octokit } = require("@octokit/core");
 
-You can follow me on [Twitter](https://twitter.com/MrDanishSaleem), [Instagram](https://www.instagram.com/mrdanishsaleem/), [LinkedIn](https://www.linkedin.com/in/mrdanishsaleem/) & [GitHub](https://github.com/mrdanishsaleem/)
+async function unstarRepositories(pat, repositories) {
+    const octokit = new Octokit({ auth: pat });
 
-### Support Me
+    for (const repo of repositories) {
+        try {
+            await octokit.request("DELETE /user/starred/{owner}/{repo}", {
+                owner: repo.owner.login,
+                repo: repo.name,
+            });
+            console.log(`Unstarred: ${repo.owner.login}/${repo.name}`);
+        } catch (deleteErr) {
+            if (deleteErr.status === 404) {
+                console.error(`Repository ${repo.owner.login}/${repo.name} not found or inaccessible.`);
+            } else {
+                console.error(`Failed to unstar ${repo.owner.login}/${repo.name}:`, deleteErr.message);
+            }
+        }
+    }
+}
 
-If you like this post. Kindly support me by [Buying Me a Coffee](https://www.buymeacoffee.com/mrdanishsaleem)
+async function unstarPlease(pat) {
+    try {
+        const octokit = new Octokit({ auth: pat });
+        const { data } = await octokit.request(`GET /user/starred`);
+
+        if (Array.isArray(data) && data.length !== 0) {
+            await unstarRepositories(pat, data);
+        } else {
+            console.log("No repositories to unstar.");
+        }
+    } catch (err) {
+        console.error(err);
+    }
+}
+
+inquirer
+    .prompt([
+        {
+            type: "input",
+            name: "pat",
+            message: "Please enter your Personal access token:",
+            default: "",
+        },
+    ])
+    .then(function ({ pat }) {
+        unstarPlease(pat);
+    })
+    .catch(function (error) {
+        if (error.isTtyError) console.error(error.isTtyError, error);
+        console.error(error);
+    });
+```
+
+## Testing and Refinement
+
+Testing was crucial to ensure the reliability of the unstar functionality. I tested various scenarios, handling errors like 404 (Not Found) gracefully. Iterative refinements were made based on testing results.
+
+## Publishing the Package
+
+### NPM Deployment
+
+Publishing the npm package involved following the standard procedure: creating a `package.json` file, ensuring proper documentation, and using the `npm publish` command.
+
+### `package.json`
+
+```javascript
+{
+    "name": "github-unstar-pro",
+    "version": "2.0.6",
+    "description": "Unstar all Github repositories using a personal access token",
+    "main": "index.js",
+    "repository": "mrdanishsaleem/github-unstar-pro",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Danish Saleem",
+    "license": "ISC",
+    "bin": {
+        "github-unstar-pro": "./index.js"
+    },
+    "keywords": [
+        "node"
+    ],
+    "files": [
+        "index.js"
+    ],
+    "dependencies": {
+        "@octokit/core": "^3.5.1",
+        "inquirer": "^8.2.0"
+    },
+    "devDependencies": {}
+}
+```
+
+### Considerations
+
+I ensured the package had clear instructions for users, guiding them on how to use it effectively. Keeping dependencies minimal and code efficient was a priority.
+
+## Conclusion
+
+From identifying a personal pain point to creating a solution, this journey taught me valuable lessons. Creating an npm package isn't just about writing code; it's about understanding user needs and crafting a seamless experience. I invite fellow developers to try out my [npm package](https://www.npmjs.com/package/github-unstar-pro) and provide feedback.
+
+🔗 [GitHub Repository](https://github.com/mrdanishsaleem/github-unstar-pro)
