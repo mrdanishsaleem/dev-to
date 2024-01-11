@@ -1,3 +1,5 @@
+// Random Code to show how push works
+
 const users = [
     { id: 1, name: 'glenn' },
     { id: 2, name: 'pat' }
