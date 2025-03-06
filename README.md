@@ -1,8 +1,8 @@
 # Implementing Conditional Fields & Smart Email Routing in Contact Form 7
 
-When building a contact form in WordPress using **Contact Form 7**, you may need to display different form fields based on user input. Additionally, ensuring that inquiries reach the right department without exposing email addresses in the frontend is crucial.
+When building a contact form in WordPress using **Contact Form 7**, you may need to display different form fields based on user input. Additionally, ensuring that inquiries reach the right department without exposing email addresses on the front end is crucial.
 
-In this article, I'll walk you through how I implemented **conditional fields** in Contact Form 7 along with **smart email routing** to enhance form usability and security.
+In this article, I'll explain how I implemented conditional fields and smart email routing in Contact Form 7 to enhance form usability and security.
 
 ---
 
@@ -22,7 +22,7 @@ For example, if a user selects _Private Credit Inquiry_, additional fields relat
 
 To achieve this, I used the **Conditional Fields for Contact Form 7** plugin and **smart mail tags** to handle email routing efficiently.
 
-### **Step 1: Setting Up the Inquiry Type Field**
+### Step 1: Setting Up the Inquiry Type Field
 
 The first step was to create an inquiry type dropdown field that determines what additional fields should be displayed.
 
@@ -32,7 +32,7 @@ Credit Inquiry|private" "Equity Investment Inquiry|equity" "Asset Sale
 Inquiry|asset"]
 ```
 
-🔹 **How this works:**
+🤔 How this works:
 
 - Users see readable labels (_General Inquiry, Private Credit Inquiry, etc._).
 - The form processes the hidden values (_general, private, equity, asset_).
