@@ -1,23 +1,101 @@
-# 🚨 WordPress Conflict: What’s Happening Between WordPress.org and WP Engine? 🚨
+# Implementing Conditional Fields & Smart Email Routing in Contact Form 7
 
-As many of you may have heard, a significant conflict is brewing between WordPress.org and WP Engine, one of the leading managed WordPress hosting providers. This dispute revolves around trademark violations, alleged misconduct within the community, and escalating legal actions.
+When building a contact form in WordPress using **Contact Form 7**, you may need to display different form fields based on user input. Additionally, ensuring that inquiries reach the right department without exposing email addresses in the frontend is crucial.
 
-## 🚨 Key Points of the Conflict
+In this article, I'll walk you through how I implemented **conditional fields** in Contact Form 7 along with **smart email routing** to enhance form usability and security.
 
-1. Access Blocked: WordPress.org blocked WP Engine from accessing key resources, including software updates, due to trademark violations and other alleged “bad behavior.”
-2. Public Criticism: WordPress co-founder and Automattic CEO Matt Mullenweg called WP Engine a “cancer to WordPress” and encouraged users to leave the platform.
-3. Legal Action: In response, WP Engine has filed a lawsuit against WordPress, Automattic, and Matt Mullenweg, accusing them of trademark violations and wrongful conduct.
+---
 
-## 💡 Why Does This Matter?
+## **The Challenge**
 
-WordPress powers 43.1% of all websites on the internet, including nearly 64.3% of all CMS-powered websites. This platform is the backbone of the web, with over 500 new WordPress sites being created daily. WP Engine hosts a significant number of these sites, so this legal conflict could potentially disrupt services and affect thousands of businesses worldwide.
+I needed to create a contact form where users select an **inquiry type**, and based on their selection:
 
-📊 WordPress by the Numbers:
+- Different form fields appear dynamically.
+- The inquiry is routed to the correct department.
+- Email addresses remain hidden from users to prevent spam.
 
-- 43.1% of all websites are powered by WordPress
-- 64.3% of all CMS websites use WordPress
-- More than 500 websites are created with WordPress every day
-- Over 58,000 plugins are available in the WordPress repository
-- WP Engine hosts more than 120,000 WordPress sites globally
+For example, if a user selects _Private Credit Inquiry_, additional fields related to investment details should appear, while general inquiries should have a simple message box.
 
-This situation has the potential to impact hosting services, future updates, and even community relationships. What are your thoughts on this ongoing dispute? Will it affect your decision in choosing a hosting provider or CMS for your projects? 🤔
+---
+
+## **The Solution: Using Conditional Fields & Smart Email Tags**
+
+To achieve this, I used the **Conditional Fields for Contact Form 7** plugin and **smart mail tags** to handle email routing efficiently.
+
+### **Step 1: Setting Up the Inquiry Type Field**
+
+The first step was to create an inquiry type dropdown field that determines what additional fields should be displayed.
+
+```html
+[select inquiry-type "Select Inquiry Type" "General Inquiry|general" "Private
+Credit Inquiry|private" "Equity Investment Inquiry|equity" "Asset Sale
+Inquiry|asset"]
+```
+
+🔹 **How this works:**
+
+- Users see readable labels (_General Inquiry, Private Credit Inquiry, etc._).
+- The form processes the hidden values (_general, private, equity, asset_).
+
+---
+
+### **Step 2: Implementing Conditional Fields**
+
+To show different fields based on the inquiry type, I used the **Conditional Fields for Contact Form 7** plugin and wrapped the fields inside condition groups.
+
+#### **Example: Private Credit Inquiry Fields**
+
+```html
+[group private-credit clear_on_hide]
+<label>Investment Amount</label>
+[text investment-amount]
+
+<label>Expected Return</label>
+[text expected-return] [/group]
+```
+
+#### **Setting the Condition**
+
+In the **Conditional Fields tab**, I set the rule:
+
+- **Show group “private-credit” IF [inquiry-type] = “private”**
+
+This ensures that the investment-related fields only appear when the user selects _Private Credit Inquiry_.
+
+Similarly, I created other field groups for Equity Investment and Asset Sale inquiries.
+
+---
+
+### **Step 3: Configuring Smart Email Routing**
+
+Instead of exposing email addresses in the frontend, I used **smart mail tags** to dynamically assign recipient addresses based on the inquiry type.
+
+#### **In the Mail tab, I set the recipient field as:**
+
+```html
+[inquiry-type]@example.com
+```
+
+This means:
+
+- If the user selects _General Inquiry_, the email is sent to **general@example.com**.
+- If they select _Private Credit Inquiry_, the email goes to **private@example.com**.
+- If they select _Equity Investment Inquiry_, it goes to **equity@example.com**.
+- If they select _Asset Sale Inquiry_, it goes to **asset@example.com**.
+
+---
+
+## **The Results**
+
+✅ **Dynamic Form Fields** – Users see only the relevant fields based on their selection.
+✅ **No Exposed Emails** – Email addresses remain hidden from the frontend.
+✅ **Automated Routing** – Inquiries are automatically sent to the right department.
+✅ **Easy Maintenance** – Updating email addresses or conditions doesn’t require frontend changes.
+
+This method ensures a **secure, user-friendly, and scalable** contact form for handling multiple inquiries efficiently.
+
+---
+
+### **Need Help Implementing This?**
+
+If you’re looking for **custom WordPress development or advanced form solutions**, feel free to reach out!
