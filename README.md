@@ -6,7 +6,7 @@ In this article, I'll walk you through how I implemented **conditional fields** 
 
 ---
 
-## **The Challenge**
+## The Challenge
 
 I needed to create a contact form where users select an **inquiry type**, and based on their selection:
 
@@ -18,7 +18,7 @@ For example, if a user selects _Private Credit Inquiry_, additional fields relat
 
 ---
 
-## **The Solution: Using Conditional Fields & Smart Email Tags**
+## The Solution: Using Conditional Fields & Smart Email Tags
 
 To achieve this, I used the **Conditional Fields for Contact Form 7** plugin and **smart mail tags** to handle email routing efficiently.
 
@@ -39,11 +39,11 @@ Inquiry|asset"]
 
 ---
 
-### **Step 2: Implementing Conditional Fields**
+### Step 2: Implementing Conditional Fields
 
 To show different fields based on the inquiry type, I used the **Conditional Fields for Contact Form 7** plugin and wrapped the fields inside condition groups.
 
-#### **Example: Private Credit Inquiry Fields**
+#### Example: Private Credit Inquiry Fields
 
 ```html
 [group private-credit clear_on_hide]
@@ -54,7 +54,7 @@ To show different fields based on the inquiry type, I used the **Conditional Fie
 [text expected-return] [/group]
 ```
 
-#### **Setting the Condition**
+#### Setting the Condition
 
 In the **Conditional Fields tab**, I set the rule:
 
@@ -66,7 +66,7 @@ Similarly, I created other field groups for Equity Investment and Asset Sale inq
 
 ---
 
-### **Step 3: Configuring Smart Email Routing**
+### Step 3: Configuring Smart Email Routing
 
 Instead of exposing email addresses in the frontend, I used **smart mail tags** to dynamically assign recipient addresses based on the inquiry type.
 
@@ -85,17 +85,31 @@ This means:
 
 ---
 
-## **The Results**
+## Plugins Used
 
-✅ **Dynamic Form Fields** – Users see only the relevant fields based on their selection.
-✅ **No Exposed Emails** – Email addresses remain hidden from the frontend.
-✅ **Automated Routing** – Inquiries are automatically sent to the right department.
-✅ **Easy Maintenance** – Updating email addresses or conditions doesn’t require frontend changes.
+To implement these features, I used the following plugins:
+
+1. **Contact Form 7** – [Download](https://wordpress.org/plugins/contact-form-7/)
+2. **Conditional Fields for Contact Form 7** – [Download](https://wordpress.org/plugins/cf7-conditional-fields/)
+
+These plugins together enabled me to build a dynamic, user-friendly, and secure contact form.
+
+---
+
+## The Results
+
+✅ Dynamic Form Fields – Users see only the relevant fields based on their selection.
+
+✅ No Exposed Emails – Email addresses remain hidden from the frontend.
+
+✅ Automated Routing – Inquiries are automatically sent to the right department.
+
+✅ Easy Maintenance – Updating email addresses or conditions doesn’t require frontend changes.
 
 This method ensures a **secure, user-friendly, and scalable** contact form for handling multiple inquiries efficiently.
 
 ---
 
-### **Need Help Implementing This?**
+### Need Help Implementing This?
 
 If you’re looking for **custom WordPress development or advanced form solutions**, feel free to reach out!
